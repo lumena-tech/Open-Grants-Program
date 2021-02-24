@@ -234,13 +234,13 @@ For each milestone:
 
 If this phase is successful, we will create a company dedicated to the development, marketing and selling of the 
 solution. First step will be to find investors (coming from industry or VCs). Future developments will include :
-* the ability to automatically detect who is trying to charge his EV, based on the location of the station and on 
+* The ability to automatically detect who is trying to charge his EV, based on the location of the station and on 
   the location of users, choosing the closest user.
-* a fully working production ready mobile app with an embedded wallet to identify and authenticate users, being 
+* A fully working production ready mobile app with an embedded wallet to identify and authenticate users, being 
   compliant with RDPG and ideally EIDAS for signature. Being EIDAS compliant will probably not be possible at short 
   term because the current regulation doesn't take into account blockchain specificities. We will nevertheless 
   integrate concepts described in the following document : [SSI eIDAS Legal Report. How eIDAS can legally support digital identity and trustworthy DLT-based transactions in the Digital Single Market](https://joinup.ec.europa.eu/sites/default/files/document/2020-04/SSI_eIDAS_legal_report_final_0.pdf)
-* a payment module that will be compliant with DSP2. Our goal is to develop a reusable module that interact with 
+* A payment module that will be compliant with DSP2. Our goal is to develop a reusable module that interact with 
   banks to prove that the acount owner has given his consent to initiate payment from his account. Here we can 
   leverage the security of the blockchain to comply with PISP constraints. Opportunities are well described [here](https://worldline.com/en/home/knowledgehub/blog/2018/january/PSD2-and-instant-payment-what-are-the-opportunities-for-e-merchants.html).
 * Capability to add innovative possibilities via Ink! Smart Contracts. e.g. variable pricing depending on the load 
@@ -249,7 +249,7 @@ solution. First step will be to find investors (coming from industry or VCs). Fu
 ## Additional Information :heavy_plus_sign:
 
 We are convinced that this project has a huge potential to solve the majority of problems or paint points that EV 
-users face regarding charging their vehicule. This is typically a domain where blockchain technology is the ideal 
+users are facing regarding charging their vehicule. This is typically a domain where blockchain technology is the ideal 
 technology by allowing the secure digitalisation of assets (charging power, money and identity) and the secure 
 conversion of value between these assets. Our potential partnership with DBT will give us a direct access to the 
-market. 
+market.
