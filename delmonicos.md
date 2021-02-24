@@ -72,7 +72,7 @@ definitely allow us to do these two phases.
   supervision platform to a back-end API. We will also have a mobile app with an embedded wallet to validate charging
   sessions.
 * API's specifications of the core functionality : not yet defined.
-* An overview of the technology stack to be used. Rust for the blockchain development with substrate and veru probably
+* An overview of the technology stack to be used. Rust for the blockchain development with substrate and very probably
   Ink! to be able to easily inject new rules. React on the front-end. Mobile app will be developed natively, starting
   with ios. The non blockchain back-end will be developed in Rust with actix-web for the http API. We will start by
   developing a blockchain front-end similar to substrate-node-ui-template.
@@ -123,7 +123,7 @@ them.
 * Antoine DETANTE is a former employee of InTech and has started his own business as a freelance Software Architect and 
   Developer. He is an experienced Blockchain architect, mainly on Ethereum, but he as also already "played" with 
   Substrate. He is the lead architect and developer of the above mentioned project Ibisa and My Sardine. Here are 
-  some sample public repos : <https://github.com/adetante/deconz-sp/tree/master/deconz-sp/src/protocol>, 
+  some sample public repos : <https://github.com/adetante/deconz-sp>, 
   <https://github.com/adetante/explorer-besu-plugin>, <https://github.com/intech-id/collexi-rollup>.
 * Franck LEGARDEUR is the founder and president of Zeenco, and experienced business developer in the Charging Station 
   business. Former Managing Director of [ZeBorne](https://zeborne.com/fr-fr/accueil), he will act as the product 
@@ -186,7 +186,7 @@ For each milestone:
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
 | 0c. | Testing Guide | The code will have unit-test coverage (min. 70%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
 | 0d. | Article/Tutorial | We will write an article or tutorial that explains the work done as part of the grant.
-| 1. | Substrate module: Identity | Choose integrate existing Identity module to start from, integrate it with the project |  
+| 1. | Substrate module: Identity | Choose an existing Identity module to start from, integrate it with the project |  
 | 2. | Substrate module: Membership | Integrate existing Membership module to start from, integrate it with the project |  
 | 3. | Substrate module: Contract | Integrate Contract module in order to support Ink! smart contracts. Smart Contracts will be used to implement flexible and scalable tariff schemes. |
 | 4. | Substrate module: Charger | We will create a Substrate module (pallet) that will be connected to the charger interface and will collect charging sessions information. At this stage, the module will only listen to events coming from the charger and collect data coming from the charger. The Off-Chain worker architecture will be used to interact with the charger hardware. We will simulate the hardware at this stage. |  
